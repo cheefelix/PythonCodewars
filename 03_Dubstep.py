@@ -14,13 +14,13 @@ song = 'WUBAWUBBWUBCWUB'
 '''
 
 # solution
-def song_decoder2(song):
+def song_decoder(song):
     import re
     return re.sub('(WUB)+', ' ', song).strip()
     
 
 # Pass all test except the last
-def song_decoder(song):
+def song_decoder2(song):
 
     a = "  "
     b = "   "
